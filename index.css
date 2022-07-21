@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1220px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header-container {
+    display: flex;
+    background: #161616;
+    border-radius: 20px;
+
+}
+
+#header-text {
+    width: 50%;
+}
+
+#header-image {
+    width: 50%;
+}
+
+#header-image img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#header-text {
+    color: white;
+    margin: 120px 100px;
+
+}
+
+#header-text h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 4vw;
+
+
+
+}
+
+#header-text p {
+    font-size: 1.25vw;
+    margin: 30px 0;
+}
+
+.btn {
+    position: relative;
+    width: 187px;
+    height: 56px;
+
+    top: 30px;
+    background-color: #DD0000;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.btn-margin {
+    margin-right: 11px;
+}
+
+/* header-design end here */
+
+/* main design start form here */
+
+
+/*aside section design start from here */
+.card-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    width: 100%;
+    box-shadow: none;
+}
+
+#button-card {
+    box-shadow: none;
+    padding: none;
+
+}
+
+#button-card .card-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+
+    width: 300px;
+    height: 270px;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: none;
+}
+
+
+
+.button {
+    padding: 16px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+
+
+}
+
+.button:hover {
+    background-color: #DD0000;
+    text-decoration: underline;
+}
+
+#color-btn-1 {
+    /* background-color: #DD0000; */
+}
+
+#color-btn-2 {
+    background-color: #DD0000;
+
+}
+
+/* aside section end here */
+
+/* section design style start from here */
+body main {
+    width: 100%;
+}
+
+main section {
+    margin: 50px 0;
+    width: 100%
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+
+
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 2px 2px 9px gray;
+    border-radius: 5px;
+    width: 100%;
+
+
+}
+
+.card-body {
+    width: 100%;
+}
+
+.card-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+
+
+}
+
+
+
+.card-header img {
+    width: 100%;
+}
+
+.card-footer span {
+    margin-right: 15px;
+}
+
+/* section design end  here */
+
+
+
+/* footer-design style start form here 
+........................................*/
+
+
+/* footer header design style from here */
+footer {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-header h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.view-more-button {
+    margin-left: 40%;
+    display: none;
+}
+
+
+/* footer-body design style from here */
+.footer-body {
+
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-body ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-body ul li {
+    list-style: none;
+    width: 130px;
+    margin: 0;
+}
+
+.footer-body ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-body ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+footer footer style form here */
+
+.social-icons a i {
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+/* footer desing end */
